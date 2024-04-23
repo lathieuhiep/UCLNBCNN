@@ -2,6 +2,8 @@ package com.techja.uclnbcnn;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        UCLNBCNN uclnbcnn = new UCLNBCNN(30, 12);
+        uclnbcnn.inUCLN();
+        uclnbcnn.inBSCNN();
     }
 }
